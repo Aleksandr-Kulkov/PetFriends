@@ -244,7 +244,7 @@ def test_unsuccessful_add_new_pet_without_photo_with_str_age(name='Deyk', animal
     # Получаем api ключ и сохраняем в переменную auth_key.
     _, auth_key = pf.get_api_key(valid_email, valid_password)
 
-    #  Отправляем запрос и сохраняем полученный ответ с кодом статуса в status, а текст ответа в result.
+    #  Отправляем запрос и сохраняем полученный ответ с кодом статуса в status.
     status, _ = pf.add_new_pet_without_photo(auth_key, name, animal_type, age)
 
     # Сверяем полученный ответ с ожидаемым результатом.
