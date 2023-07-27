@@ -121,7 +121,7 @@ class PetFriends:
 
     def add_pet_photo(self, auth_key: json, pet_id: str, pet_photo: str) -> json:
         """Метод делает запрос к API сервера и возвращает статус запроса и результат в формате
-        JSON с данными питомца,для которого добавлено фото."""
+        JSON с данными питомца, для которого добавлено фото."""
 
         headers = {'auth_key': auth_key['key']}
         file = {'pet_photo': (pet_photo, open(pet_photo, 'rb'), 'image/jpeg')}
