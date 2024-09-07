@@ -96,8 +96,6 @@ class PetFriends:
         status = res.status_code
         return status
 
-
-# Задание 24.7.2
     def add_new_pet_without_photo(self, auth_key: json, name: str, animal_type: str, age: int) -> json:
         """Метод делает запрос к API сервера и возвращает статус запроса и результат в формате
         JSON с данными созданного питомца без фото."""
