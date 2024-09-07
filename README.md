@@ -1,4 +1,4 @@
-PetFriends
+# PetFriends
 
 Тестирование REST API-сервиса (https://petfriends.skillfactory.ru/apidocs/) веб-приложения PetFriends (https://petfriends.skillfactory.ru/).
 
