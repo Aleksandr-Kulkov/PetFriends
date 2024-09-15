@@ -104,7 +104,6 @@ def test_delete_pet_with_valid_data():
         raise Exception("There aren't my pets.")
 
 
-# Задание 24.7.2
 def test_add_new_pet_without_photo_with_valid_data(name='Deyk', animal_type='dog', age=3):
     """Проверяем, что запрос на создание питомца без фото с валидными данными возвращает статус 200
     и имя созданного питомца соответствует ожидаемому."""
