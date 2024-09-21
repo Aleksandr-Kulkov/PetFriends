@@ -1,6 +1,6 @@
 # petfriends
 
-Тестирование REST API-сервиса (https://petfriends.skillfactory.ru/apidocs/) веб-приложения PetFriends (https://petfriends.skillfactory.ru/).
+Тестирование REST API-сервиса (https://petfriends.skillfactory.ru/apidocs/) веб-приложения PetFriends (https://petfriends.skillfactory.ru/) с использованием pytest (версия 7.4.0).
 
 Файл api.py - библиотека к REST API-сервису.
 
